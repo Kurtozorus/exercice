@@ -1,0 +1,41 @@
+body {
+    font-family: lato;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header {
+    text-align: center;
+    padding: 2rem;
+    padding-bottom: 0;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+thead {
+    background: grey;
+    font-weight: bold;
+}
+table, th, td {
+    border: 1px solid black;
+}
+.italic {
+    font-style: italic;
+}
+.bold {
+    font-weight: bold;
+}
+td {
+    padding: 0 0 0 45px;
+}
+tfoot td {
+    padding: 0;
+}

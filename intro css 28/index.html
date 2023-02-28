@@ -1,0 +1,90 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Inscription</title>
+</head>
+<body>
+    <h1>Formulaire d'inscription</h1>
+    <form action="inscription.php" method="post">
+    <fieldset>
+        <legend>Informations de connexion</legend>
+        <label for="email">Votre adresse E-mail:</label>
+        <input type="email" id="email" name="email" placeholder="charle@hotmail.fr Exemple" required>
+        <label for="password">Votre mot de passe:</label>
+        <input type="password" id="password" name="password" placeholder="chenilleArti9" required>
+        <br>
+        <label for="photo.jpg">Votre Photo de profile:</label>
+        <input type="file" id="photo.jpg" name="photo.jpg" placeholder="Choisir une image au format .jpg" required>
+    </fieldset>
+    <fieldset>
+        <legend>Civilité</legend>
+        <div>
+            <input type="radio" id="Mr" name="civilite" value="Mr">
+            <label for="Mr" class="inline-label">Monsieur</label>
+        </div>
+        <div>
+            <input type="radio" id="Mme" name="civilite" value="Mme">
+            <label for="Mme" class="inline-label">Madame</label>
+        </div>
+        <label for="firstname">Votre Prénom:</label>
+        <input type="text" id="firstname" name="firstname" required placeholder="Votre prénom">
+        <label for="lastname">Votre Nom:</label>
+        <input type="text" id="lastname" name="lastname" required placeholder="Votre nom">
+        <label for="birthdate">Votre date de naissance:</label>
+        <input type="date" name="birthdate" id="birthdate">
+        <label for="phone">Votre numéro de téléphone:</label>
+        <input type="tel" id="phone" name="phone" placeholder="+33" >
+    </fieldset>
+    <fieldset>
+        <legend>Adresse</legend>
+        <label for="city">Votre ville:</label>
+        <input type="text" id="city" name="city" placeholder="Nante">
+        <label for="CCP">Votre Code Postale:</label>
+        <input type="number" id="CCP" name="CCP" placeholder="44300">
+        <br>
+        <label for="Adress">Votre adresse:</label>
+        <textarea name="Adress" id="Adress" cols="60" rows="1" placeholder="Rue louis émille 25 Les paquets"></textarea>
+    </fieldset>
+    <fieldset>
+        <legend>Jeux de société</legend>
+        <label for="Game">Votre préférence de jeux:</label>
+        <select name="Game" id="game" multiple>
+            <option value="tarot">Tarot</option>
+            <option value="echecs">Echecs</option>
+            <option value="dames">Dames</option>
+            <option value="bataille-navale">bataille-navale</option>
+            <option value="petits-chevaux">Petit-cheveaux</option>
+            <option value="poker">poker</option>
+
+        </select>
+    </fieldset>
+    <fieldset>
+        <legend>Parainnage</legend>
+        <label for="Parrain">Choix d'un parrain parmis la liste</label>
+        <select>
+            <option value="Default">Choix par défaut</option>
+            <option value="Laure">Laure</option>
+            <option value="Adam">Adam</option>
+            <option value="Chloé">Chloé</option>
+            <option value="Jules">Jules</option>
+            <option value="Camille">Camille</option>
+            <option value="Raphael">Raphael</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <legend>Newsletter</legend>
+        <label for="newsletter">J'accepte les Newsletter:</label>
+        <input type="checkbox" id="newsletter" name="newsletter">
+    </fieldset>
+    
+    <p>Les champs précédés d'une * sont des champs obligatoires.</p>
+    <button type="submit">Fin de l'inscription</button>
+    <button type="reset">Réinitialiser la page</button>
+</fieldset>
+</form>
+
+</body>
+</html>
