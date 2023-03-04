@@ -1,0 +1,29 @@
+.boxWithShadow {
+    width: 300px;
+    height: 300px;
+    margin-left: 50px;
+    box-shadow: -4px 6px 20px hsla(0, 0%, 0%, 80%);
+}
+.radius {
+    margin-top: 20px;
+     margin-left: 50px;
+    width: 300px;
+    height: 300px;
+    background-image: url(kk.jpg);
+    border-radius: 8px 20px 4px 6px;
+}
+.gradientBox {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(25deg, yellow, green);
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.avatar {
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 300px;
+    height: 300px;
+    background-image: url(kk.jpg);
+    border-radius: 50%;
+}
