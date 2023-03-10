@@ -1,0 +1,14 @@
+@media screen and (min-width:1220px) {
+    .text-element {
+        overflow: hidden;
+    }
+}
+@media screen and (min-width: 741px) {
+    .menu{
+          display: none;
+        }
+      
+        .text-element {
+          display: block;
+        }
+      }
