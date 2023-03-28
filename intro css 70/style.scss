@@ -1,0 +1,25 @@
+$info: #0000ff;
+$success:#008000;
+$error: #ff0000;
+$colorsMap: ('info' : $info, 'success' : $success, 'error': $error);
+
+@mixin colorUtility ($property) {
+    @each $name, $value in $colorsMap {
+        &-#{$name} {
+            #{$property}:$value;
+            @if $property == 'border-color' {
+                border-width: 2px;
+                border-style: solid;
+            }
+        }
+    }
+}
+.color {
+    @include colorUtility(color);
+}
+.background {
+    @include colorUtility(background-color)
+}
+.border {
+    @include colorUtility(border-color)
+}

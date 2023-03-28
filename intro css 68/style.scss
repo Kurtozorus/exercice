@@ -1,0 +1,28 @@
+$info:#0000ff;
+$error:#ff0000;
+$success:#04ec49;
+%flex-centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    @extend %flex-centered;
+    border-radius: 4px;
+    border: none;
+    padding: 10px 30px;
+    margin: 5px;
+    color: white;
+
+    &.info {
+    background-color: $info;
+    }
+
+    &.error {
+    background-color: $error;
+    }
+    &.success {
+    background-color: $success;
+    }
+}

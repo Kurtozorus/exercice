@@ -1,0 +1,35 @@
+.color-info {
+  color: #0000ff;
+}
+.color-success {
+  color: #008000;
+}
+.color-error {
+  color: #ff0000;
+}
+
+.background-info {
+  background-color: #0000ff;
+}
+.background-success {
+  background-color: #008000;
+}
+.background-error {
+  background-color: #ff0000;
+}
+
+.border-info {
+  border-color: #0000ff;
+  border-width: 2px;
+  border-style: solid;
+}
+.border-success {
+  border-color: #008000;
+  border-width: 2px;
+  border-style: solid;
+}
+.border-error {
+  border-color: #ff0000;
+  border-width: 2px;
+  border-style: solid;
+}/*# sourceMappingURL=style.css.map */
