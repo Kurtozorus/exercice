@@ -1,0 +1,17 @@
+.first-block {
+    border-style: solid;
+    width: 40%;
+  }
+  
+  .second-block {
+    border-style: solid;
+    width: 75%;
+  }
+  
+  .third-block {
+    float: right;
+  }
+  
+  .main {
+    display: flex;
+  }
